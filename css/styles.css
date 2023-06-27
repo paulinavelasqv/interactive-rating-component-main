@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    flex-direction: column;
+}
+
+.container, .thank-you{
+    border-radius: 20px;
+    width: 358px;
+    height: 330px;
+    background-color: hsl(215, 20%, 16%);
+}
+
+.star-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(210, 19%, 18%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.star-img img{
+    width: 35%;
+    height: auto;
+
+}
+
+.details{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.details h1{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: .7rem;
+}
+
+.details p{
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.raiting{
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnRaiting{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(210, 19%, 18%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(216, 12%, 54%);
+    border: none;
+}
+
+.btnRaiting:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+
+.btnRaiting:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.btn{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    border: none;
+    width: 300px;
+    padding: .6rem;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+    cursor: pointer;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn:hover{
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thank-you img{
+    display: block;
+    margin: 2rem auto 2rem;
+    width: 130px;
+    height: auto;
+}
+
+.thank-you p.orange-p{
+    font-size: 0.9rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    padding: 0.4rem 0.6rem 0.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.thank-you p.lastP{
+    margin: 1rem;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
